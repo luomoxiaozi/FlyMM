@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:icon="@drawable/version"
+        android:persistent="false"
+        android:summary="@string/version_value"
+        android:title="@string/version" />
+    <Preference
+        android:icon="@drawable/user"
+        android:persistent="false"
+        android:summary="@string/auther_name"
+        android:title="@string/auther" />
+    <Preference
+        android:icon="@drawable/menu"
+        android:persistent="false"
+        android:summary="@string/statement_value"
+        android:title="@string/statement" />
+
+</PreferenceScreen>

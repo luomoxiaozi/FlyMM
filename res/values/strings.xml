@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FlyMM手电</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 主设置 -->
+    <string name="light_set">设置</string>
+    <string name="auto_turn_on">启动自动开灯</string>
+    <string name="auto_turn_off">关灯自动退出</string>
+    <string name="quick_open">home快捷开关</string>
+    <string name="vibrator_on">开灯启动声音</string>
+    <string name="screen_on">滑屏调节亮度</string>
+    <string name="set_special">个性化设置</string>
+    <string name="call_light">来电闪光灯</string>
+    
+    <string name="set_details">细节设置</string>
+
+    <!-- 关于 -->
+    <string name="support">关于</string>
+    <string name="mark">五星好评</string>
+    <string name="share">分享好友</string>
+    <string name="about_me">关于作者</string>
+
+    <!-- 个性化设置 -->
+    <string name="anim_open">开灯启动动画</string>
+    <string name="openNotify">开灯提示语</string>
+    <string name="closeNotify">关灯提示语</string>
+    <string name="dialogTitle">提示语句</string>
+    <string name="flashRate">闪关灯频率</string>
+    <string name="closeLightTime">自动退出时间</string>
+    
+    <!-- 来点闪光灯 -->
+    <string name="call_service_mode">服务开关</string>
+	<string name="call_callflash_mode">来电闪光</string>
+	<string name="call_message_mode">信息闪光</string>
+    
+    <!-- 关于作者 -->
+    <string name="version">Version</string>
+    <string name="version_value">1.2.1</string>
+    <string name="auther">Name</string>
+    <string name="auther_name">JayCao</string>
+    <string name="statement">声明</string>
+    <string name="statement_value">"本产品由杰哥工作室出品，为魅友做最好用的免费手电筒，意见请反馈到 wangjie_csu@163.com。"</string>
+
+</resources>

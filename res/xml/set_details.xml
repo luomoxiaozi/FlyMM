@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="常用设置" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="vibrator_on"
+            android:persistent="true"
+            android:title="@string/vibrator_on" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="anim_open"
+            android:persistent="true"
+            android:title="@string/anim_open" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/flashRate"
+            android:entries="@array/flateRateWord"
+            android:entryValues="@array/flateRateValue"
+            android:key="flashRate"
+            android:title="@string/flashRate" />
+        <ListPreference
+            android:defaultValue="6"
+            android:dialogTitle="@string/closeLightTime"
+            android:entries="@array/closeLightWord"
+            android:entryValues="@array/flateRateValue"
+            android:key="closeLightTime"
+            android:title="@string/closeLightTime" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="温馨提示" >
+        <EditTextPreference
+            android:dialogTitle="@string/dialogTitle"
+            android:key="open_notify"
+            android:title="@string/openNotify" />
+        <EditTextPreference
+            android:dialogTitle="@string/dialogTitle"
+            android:key="close_notify"
+            android:title="@string/closeNotify" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

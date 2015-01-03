@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="核心设置" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="quick_open"
+            android:persistent="true"
+            android:summary="双击Home键开关闪光灯"
+            android:title="@string/quick_open" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="screen_on"
+            android:persistent="true"
+            android:title="@string/screen_on" />
+        <PreferenceScreen
+            android:key="set_details"
+            android:persistent="false"
+            android:title="细节设置" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="来电闪光" >
+        <SwitchPreference
+        android:defaultValue="false"
+        android:key="service_on"
+        android:persistent="true"
+        android:icon="@android:drawable/ic_lock_lock"
+        android:title="@string/call_service_mode"/>
+     
+     <SwitchPreference
+        android:defaultValue="false"
+        android:key="message_on"
+        android:persistent="true"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="@string/call_message_mode"/>
+     
+      <SwitchPreference
+        android:defaultValue="false"
+        android:key="call_on"
+        android:persistent="true"
+        android:summaryOn="一般模式下开启"
+        android:summaryOff="静音模式下开启"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="@string/call_callflash_mode"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

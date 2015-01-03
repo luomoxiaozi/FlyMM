@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/light_set" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="auto_on"
+            android:persistent="true"
+            android:title="@string/auto_turn_on" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="auto_off"
+            android:persistent="true"
+            android:title="@string/auto_turn_off" />
+        <PreferenceScreen
+            android:key="set_special"
+            android:persistent="false"
+            android:title="@string/set_special" />
+        
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/support" >
+        <Preference
+            android:icon="@drawable/share"
+            android:persistent="false"
+            android:key="share"
+            android:title="@string/share" >
+        </Preference>
+        
+        <Preference
+            android:icon="@drawable/star"
+            android:persistent="false"
+            android:title="@string/mark" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="mstore:http://app.meizu.com/phone/apps/d4e79bd2801245c88930d3035ee5cd52" />
+        </Preference>
+        
+        <PreferenceScreen
+            android:icon="@drawable/version"
+            android:key="about_me"
+            android:persistent="false"
+            android:title="@string/about_me" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

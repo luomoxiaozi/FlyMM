@@ -1,0 +1,60 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light" />
+
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:windowBackground">@color/grey</item>
+        <item name="android:textViewStyle">@style/CustomTextView</item>
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+    </style>
+    
+    <!-- 主界面theme -->
+    <style name="CustomSmartBarTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:actionBarStyle">@style/MainActionBar</item>
+    </style>
+    <style name="MainActionBar" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@drawable/action_bar_bg</item>
+        <item name="android:backgroundSplit">@drawable/action_bar_bg</item>
+    </style>
+
+    <!-- guide界面theme -->
+    <style name="GuideSmartBarTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:actionBarStyle">@style/GuideActionBar</item>
+    </style>
+
+    <style name="GuideActionBar" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@drawable/guide_smartbar_bar_bg</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionbarOverFlowStyle</item>
+        <item name="android:backgroundSplit">@drawable/guide_smartbar_bar_bg</item>
+    </style>
+
+    <style name="ActionbarOverFlowStyle" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_back</item>
+    </style>
+
+    <style name="SetLightTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+    </style>
+
+    <style name="SetBlackTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+    </style>
+
+    <style name="CustomTextView">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/dark</item>
+    </style>
+
+    <style name="CustomActionBar" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/common_title_bar_bg</item>
+        <item name="android:titleTextStyle">@style/TextView</item>
+        <item name="android:text">设 置</item>
+        <item name="android:backgroundSplit">@drawable/action_bar_bg</item>
+    </style>
+
+</resources>
